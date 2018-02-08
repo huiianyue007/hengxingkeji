@@ -1,0 +1,62 @@
+// 字体定义
+@mixin font-hei {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+//== 主题颜色
+//
+//## 主色，对称色，警告色
+
+$primaryColor:  rgba(210,35,35,1);
+$darkPrimaryColor: rgba(248,248,248,1);
+$lightPrimaryColor: rgba(255,255,255,1);
+
+
+$accentColor: rgba(0,0,0,0.9) ;
+$darkAccentColor: rgba(0,0,0,0.9);
+$lightAccentColor: rgba(210,35,35,1);
+
+$warnColor: rgba(210,35,35,1);
+$lightWarnColor: rgba(255,80, 0,1);
+$darkWarnColor: rgba(255,21, 86,1);
+
+//== 文字颜色
+//
+//## 文字颜色，边框颜色，不可用颜色
+
+$textColor: rgba(0,0,0,0.9);
+$lightTextColor: rgba(255,255,255,1);
+$borderColor: rgba(210,35,35,1);
+$disabledColor: rgba(0,0,0,0.5);
+
+
+//== 背景颜色
+//
+//## 页面背景色，状态栏颜色
+$backgroundColor: rgba(248,248,248,1);
+$statusBarColor: rgba(255,255,255,1);
+$statusBarBgColor: #333;
+
+//== 图标
+//
+//## 图标尺寸，大小，辅助图标
+
+$iconSize: 24px ;
+$iconWidth: 32px ;
+$iconHeight: 32px ;
+
+$LowericonSize: 13px;
+$LowericonWidth: 16px;
+$LowericonHeight: 16px;
+
+//== 尺寸
+//
+//## 字体大小，边距,菜单栏高度
+$fontSize: 14px ;
+$fontSizeMax: 16px ;
+$fontSizeMini: 8px ;
+
+$gutter: 16px !default;
+$gutterMini: 8px !default;
+$gutterMax: 32px !default;
+$toolbarHeight: 44px !default;
